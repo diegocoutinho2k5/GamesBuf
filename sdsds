@@ -1,0 +1,10 @@
+// console.log(xRel, yRel);
+
+  // document.querySelector(".x").textContent = event.pageX;
+  // document.querySelector(".x").textContent = Math.ceil((100 * xRel) / el.width) + "%";
+  // document.querySelector(".y").textContent = event.pageY;
+  // document.querySelector(".y").textContent = Math.ceil((100 * yRel) / el.height) + "%";
+
+  // let wStart = el.left;
+  // let wEnd = parseInt(el.left) + parseInt(el.width);
+  // console.log(wStart + " " + wEnd);

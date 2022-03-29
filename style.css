@@ -1,0 +1,185 @@
+
+
+* {box-sizing: border-box;}
+
+
+
+body { 
+  margin: 0;
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family:'Burford Rustic Line Medium';
+}
+
+.header {
+  overflow: hidden;
+  background-color: #202020ab;
+  padding: 20px 10px;
+  font-family:'Burford Rustic Line Medium';
+  }
+
+.header a {
+  float: left;
+  color: rgb(255, 247, 247);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px; 
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 313px;
+  
+}
+
+.header-right a:hover {
+  background-color: rgba(69, 209, 51, 0.664);
+  color: rgb(255, 255, 255);
+  transition: 750ms;
+}
+
+.header a.active {
+  background-color: #A2CC20;
+  color: white;
+}
+
+.header-right{
+  float:center;
+  
+}
+
+
+
+main{
+  background-color: rgba(104, 104, 104, 0.301);
+  color:  white;
+  font-family:'Burford Rustic Line Medium';
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+  align-items:center;
+  width: 700px;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  max-width: 800px;
+  min-width: 320px;
+  
+}
+
+pre{
+  font-family:'Burford Rustic Line Medium';
+}
+
+h1{
+  color:#ffffff;
+  text-align: center;
+  font-size:50px;
+}
+
+li{
+  font-weight: bold;
+}
+
+  .titulos{
+  background-color:#A2CC20 ;
+  border-radius: 4px;
+  padding: 0px 15px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 27px;
+  position:relative;
+  display: inline-block;
+}
+
+.h3{
+  font-size: 50px;
+}
+
+
+.setas{
+position: absolute;
+
+}
+  
+  .seta{
+    margin-left:590px;
+    position: absolute;
+    margin-top: -15px;
+    
+  }
+
+
+  
+
+img{
+  margin-bottom: -5px;
+  
+  
+}
+
+.pichau{
+  background-color: white;
+  display: inline-block;
+}
+
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a{
+  color: blue;
+}
+
+
+.thumbnail:hover{
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+  text-align: center;
+}
+
+
+@font-face {
+  
+  font-family:'Burford Rustic Line Medium';
+  src: url('fontes/Burford_Rustic-LineMedium.ttf') format('truetype');
+  
+};
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
