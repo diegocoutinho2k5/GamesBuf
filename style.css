@@ -13,21 +13,26 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   overflow: hidden;
   background-color: #202020ab;
   padding: 20px 10px;
   font-family:'Burford Rustic Line Medium';
+  position: fixed;
+  width: 100%;
   }
 
 .header a {
   float: left;
   color: rgb(255, 247, 247);
   text-align: center;
-  padding: 12px;
+  padding: 0 12px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px; 
+  
 }
 
 .header a.logo {
@@ -38,7 +43,7 @@ body {
 }
 
 .header-right a:hover {
-  background-color: rgba(69, 209, 51, 0.664);
+  background-color: #a1cc2046;
   color: rgb(255, 255, 255);
   transition: 750ms;
 }
@@ -48,27 +53,19 @@ body {
   color: white;
 }
 
-.header-right{
-  float:center;
-  
-}
-
-
-
 main{
-  background-color: rgba(104, 104, 104, 0.301);
-  color:  white;
+  background-color: rgb(255, 255, 255);
+  color:  rgb(34, 34, 34);
   font-family:'Burford Rustic Line Medium';
   font-size: 20px;
   text-align: justify;
   padding: 20px;
   align-items:center;
   width: 700px;
-  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
-  margin: auto;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
   max-width: 800px;
   min-width: 320px;
-  
+  margin: auto;
 }
 
 pre{
@@ -76,7 +73,7 @@ pre{
 }
 
 h1{
-  color:#ffffff;
+  color:#000000;
   text-align: center;
   font-size:50px;
 }
@@ -100,18 +97,16 @@ li{
   font-size: 50px;
 }
 
-
 .setas{
 position: absolute;
 
 }
   
-  .seta{
-    margin-left:590px;
-    position: absolute;
-    margin-top: -15px;
-    
-  }
+.seta{
+  margin-left:590px;
+  position: absolute;
+  margin-top: -15px;
+}
 
 
   
@@ -131,6 +126,7 @@ img{
 p{
   font-size: 20px;
   font-weight: bold;
+  color: black;
 }
 
 a{
