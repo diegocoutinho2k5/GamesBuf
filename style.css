@@ -16,11 +16,12 @@ body {
   display: flex;
   align-items: center;
   overflow: hidden;
-  background-color: #202020ab;
+  background-color: rgb(34, 34, 34);
   padding: 20px 10px;
   font-family:'Burford Rustic Line Medium';
   position: fixed;
   width: 100%;
+  top:0;
   }
 
 .header a {
@@ -53,6 +54,11 @@ body {
   color: white;
 }
 
+h1{
+  background-color: #A2CC20;
+  border-radius: 4px;
+}
+
 main{
   background-color: rgb(255, 255, 255);
   color:  rgb(34, 34, 34);
@@ -66,6 +72,7 @@ main{
   max-width: 800px;
   min-width: 320px;
   margin: auto;
+  margin-top: 100px;
 }
 
 pre{
@@ -89,7 +96,6 @@ li{
   margin-left: 10px;
   font-weight: bold;
   font-size: 27px;
-  position:relative;
   display: inline-block;
 }
 
@@ -98,13 +104,12 @@ li{
 }
 
 .setas{
-position: absolute;
+position:absolute;
 
 }
   
 .seta{
   margin-left:590px;
-  position: absolute;
   margin-top: -15px;
 }
 
@@ -165,17 +170,3 @@ a{
     
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
